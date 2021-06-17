@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Questrial&display=swap");
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(120deg, #ff7f00, #99469c, #22bbd4, #577e53);
+    background-size: 800% 800%;
+    animation: GradientBackground 30s ease infinite;
+}
+
+@keyframes GradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    font: 10rem Questrial;
+    line-height: 12rem;
+    height: 12rem;
+    width: auto;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+    display: block;
+    font: 3rem Questrial;
+    line-height: 3rem;
+    height: 3rem;
+    width: auto;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
